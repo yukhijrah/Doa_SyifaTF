@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="12dp">
+
+       <TextView
+           android:id="@+id/salam"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/salam"
+           android:layout_marginStart="45dp"
+           android:layout_marginTop="60dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/hai"
+           android:layout_below="@id/salam"
+           android:layout_marginStart="45dp"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="@color/warnaTulisan"/>
+
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/jadwalAdzan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jadwal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_jadwalAdzan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+</RelativeLayout>

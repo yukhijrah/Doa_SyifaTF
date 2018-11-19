@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Kumpulan Doa</string>
+    <string name="app_name1">My Profile</string>
+
+    <!--untuk tombol botton-->
+    <string name="menu_home_adzan">Home</string>
+    <string name="menu_doa">Doa</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--untuk detailActivity-->
+    <string name="judul_doa">judulDoa</string>
+    <string name="ayat_doa">ayatDoa</string>
+    <string name="ejaan_doa">ejaanDoa</string>
+    <string name="arti_doa">artiDoa</string>
+
+    <!--untuk fragmentHome-->
+    <string name="salam">Assalamualaikum...</string>
+    <string name="hai">Hai,Syifa Tazkiy Fauziah</string>
+    <string name="jadwal">jadwal Sholat Sholat Hari Ini</string>
+
+    <!--untuk fragmentProfile-->
+    <string name="myProfile">My Profile</string>
+    <string name="Nama">Nama : Syifa tazkiy fauziah</string>
+    <string name="TTL">TTL : Bima(NTB), 28 April 1998</string>
+    <string name="prodi">Prodi : Informatika</string>
+    <string name="NIM">NIM : 0110216070</string>
+    <string name="Kampus">Kampus : Sekolah Tinggi Teknologi Nurul Fikri</string>
+
+    <!--untuk itemAdzan-->
+    <string name="nama_sholat">nama sholat</string>
+    <string name="waktu_sholat">waktu</string>
+
+
+</resources>
